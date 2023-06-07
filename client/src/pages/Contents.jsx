@@ -15,7 +15,7 @@ const Contents = () =>{
     const FetchData = async () =>{
         setLoading(true);
         await axios.get(`${ItemRoute}/${route}`,{withCredentials:true}).then(resp=>{   
-            console.log(resp.data);
+    
             if(resp.data.success){
                 setData(resp.data.result);
                 setLoading(false);
