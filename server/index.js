@@ -8,7 +8,8 @@ const app = express();
 ConnectToDB();
 
 const CorsOptions = {
-    origin:"vaishnavi-fabrications-lyart.vercel.app",    
+    origin:"vaishnavi-fabrications-lyart.vercel.app",
+    credentials:true
 }
 
 app.get('/',(req,res)=>{
