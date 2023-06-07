@@ -104,8 +104,8 @@ const Homepage = () => {
                     <div className="col-12 contact">
                         <h2 className='text-center'>Connect With Us</h2>
                         <h6 className='mt-4 text-center'>Reach out on WhatsApp or give us a call for the best home design experience.</h6>
-                        <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", alignItems: "center", gap: "20px" }} className="pb-4">
-                            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                        <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", alignItems: "center", gap: "20px" , flexWrap:"wrap"}} className="pb-4">
+                            <div style={{ display: "flex", alignItems: "center", gap: "10px" ,width:"100%",justifyContent:"center"}}>
                                 <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="whatsapp" width="30px" height="30px" className='mt-4' />
                                 <h6 className='text-black mt-4'>+91 9000552347 , 9951480617</h6>
                             </div>
