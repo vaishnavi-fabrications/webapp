@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    width: 350px;
+    margin: auto;
+    height: 500px;
+    border:1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login{
+    background-color: #332885;
+    color:"white"
+}
+.login:hover{
+    color: black;
+}
+.main-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.mainCon{
+    width: 100vw;
+    height: auto;
+    background-image:url('./assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    box-shadow: inset 5px 1px 60px 20px rgba(0, 0, 0, 0.739);
+}
+.hmeLeft-mb{
+    height: 600px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hmeLeft{
+    height: 600px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hmeLeft > h1 , .hmeLeft-mb>h1{
+    font-size:2.5rem;
+    color: white;
+    text-shadow: 4px 2px 10px black;
+    font-weight: bolder;
+    padding: 20px;
+}
+.hmeRight{
+    height: 500px;
+    background-color: rgba(0,0,0,0,1);
+    margin-top: 20px;
+}
+
+.hme-ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    gap: 5px;
+}
+.hme-ul > li{
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    background-color: white;
+    width: 300px;
+    border-radius: 9px 90px;
+    color: black;
+    list-style-type: none;
+}
+.hme-ul > li:hover{
+    color: gray;
+    cursor: pointer;
+}
+.shantell{
+    font-family: 'Shantell Sans', cursive;
+}
+.members{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    /* background-color: #170e5b; */
+}
+.members > h1{
+    text-align: center;
+    color: white;
+}
+.hme-serCon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.serItem{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 15px gray;
+}
+.serItem > h6{
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+    font-family:'Pacifico', cursive;
+}
+.serItem > p{
+    padding: 5px;
+    text-align: center;
+}
+.serItem:hover{
+    box-shadow: 3px 3px 60px gray;
+}
+.offLeft{
+    height: 300px;
+    background-color: white;
+}
+.offRight{
+    height: 300px;
+    background-color: white;
+}
+.contact{
+    width: 100%;
+    margin-top: 40px;
+}
+.footer{
+    background-color: #332885;
+}
+.footer > p{
+    color: white;
+    padding: 10px;
+}
+.serv{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}  
+.serItem-mb{
+    width: 150px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: 2px 2px 15px gray;
+}
+.serItem-mb > h6{
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+    font-family:'Pacifico', cursive;
+}
+.serItem-mb > p{
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+}
