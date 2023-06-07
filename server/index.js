@@ -11,6 +11,10 @@ const CorsOptions = {
     origin:["https://vaishnavi-fabrications.vercel.app","http://192.168.29.173:3000"]
 }
 
+app.get('/',(req,res)=>{
+    res.send("Welcome to server");
+})
+
 app.use(cors(CorsOptions));
 app.use(express.json());
 app.use('/api/v1/item',itemRoute);
