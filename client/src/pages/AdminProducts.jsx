@@ -16,7 +16,7 @@ const AdminProducts = () =>{
         if(option!=='select'){
             FetchAssets();
         }
-    },[option]);
+    });
     return(
         <div className="col-12">
             <select value={option} onChange={e=>{

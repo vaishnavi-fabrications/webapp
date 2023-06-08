@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import '../App.css';
-import { Button, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 import { Stack } from '@mui/system';
 import { auth } from '../database/firebase';
 import {  createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
@@ -22,7 +22,6 @@ const Admin = () =>{
     const SubmitHandler = async () =>{
         setLoading(true);
         await signInWithEmailAndPassword(auth,data.Email,data.Password).then(resp=>{
-            console.log(resp);
             setLoading(false);
         }).catch(err=>{
             alert(err.message);
